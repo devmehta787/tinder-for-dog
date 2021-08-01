@@ -1,0 +1,139 @@
+#title {
+  background-color: #e4406f;
+  color: #fff;
+}
+body {
+  font-family: "Montserrat";
+}
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 1;
+  right: 25%;
+}
+#features {
+  padding: 5% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+p {
+  color: #8f8f8f;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.pic {
+  color: #fe9191;
+  margin-bottom: 1rem;
+}
+.pic:hover {
+  color: #e4406f;
+}
+#testimonials {
+  text-align: center;
+  background-color: #fe9191;
+  color: #fff;
+  padding-bottom: 10%;
+}
+.testimonial-image {
+  border-radius: 50%;
+  width: 20%;
+}
+.carousel-item {
+  padding: 5% 10%;
+}
+#press {
+  padding: 5% 10%;
+  background-color: #fe9191;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+#pricing {
+  padding: 10% 8%;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .navbar {
+    text-align: left;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta {
+  background-color: #e4406f;
+  color: #fff;
+  text-align: center;
+}
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#bottom_bar {
+  padding: 5% 10%;
+}
+#footer {
+  text-align: center;
+  padding: 0 10%;
+  margin: 0%;
+}
+.icon-button {
+  margin: 5% 3%;
+  color: #727171;
+}
+.icon-button:hover {
+  color: #000000;
+}
